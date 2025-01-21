@@ -9,7 +9,9 @@ app.get("/status", (req, res) => {
 
 // Route for /version
 app.get("/", (req, res) => {
-  res.status(200).json({ version: "1.0.0", message: "API Version 2.0.0" });
+  res
+    .status(200)
+    .json({ version: "1.0.0", message: "API Version 2.0.0bdjhsahjdashjd" });
 });
 
 // Start the server
